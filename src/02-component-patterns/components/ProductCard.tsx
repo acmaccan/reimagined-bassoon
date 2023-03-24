@@ -35,9 +35,6 @@ export const ProductCard = ({
     >
       <div className={`${styles.productCard} ${className}`} style={style}>
         {children}
-        {/* <ProductImage product={product} />
-            <ProductName name={product.name} />
-            <ProductButtons counter={counter} increaseBy={increaseBy} /> */}
       </div>
     </Provider>
   )
