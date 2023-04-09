@@ -1,0 +1,82 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "First name",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Last name",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      },
+      {
+        "type": "maxLength",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "email",
+    "placeholder": "email@domain.com",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "jobs",
+    "label": "Jobs",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ],
+    "options": [
+      {
+        "id": "1",
+        "label": "Job 1"
+      },
+      {
+        "id": "2",
+        "label": "Job 2"
+      },
+      {
+        "id": "3",
+        "label": "Job 3"
+      }
+    ]
+  }
+]
